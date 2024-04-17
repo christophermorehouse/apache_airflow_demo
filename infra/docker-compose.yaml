@@ -58,9 +58,9 @@ x-airflow-common:
     AIRFLOW__API__AUTH_BACKEND: 'airflow.api.auth.backend.basic_auth'
     AIRFLOW__SMTP__SMTP_HOST: smtp.googlemail.com
     AIRFLOW__SMTP__SMTP_PORT: 587
-    AIRFLOW__SMTP__SMTP_USER: christopher.morehouse@eclypsium.com
-    AIRFLOW__SMTP__SMTP_PASSWORD: vavbhfjrzjwhuelb
-    AIRFLOW__SMTP__SMTP_MAIL_FROM: christopher.morehouse@eclypsium.com
+    AIRFLOW__SMTP__SMTP_USER: account@domain.com
+    AIRFLOW__SMTP__SMTP_PASSWORD: smtp_password
+    AIRFLOW__SMTP__SMTP_MAIL_FROM: account@domain.com
     AIRFLOW__SMTP__SMTP_STARTTLS: 'true'
     AIRFLOW__SMTP__SMTP_SSL: 'false'
     _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:-}
